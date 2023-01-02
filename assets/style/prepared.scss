@@ -1,0 +1,27 @@
+$color-first: #9f1239;
+$color-second: #373737;
+$color-third: #f1e2e2;
+* body, html {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  background-color: $color-third;
+  font-family: iransans;
+  color: #373737 !important;
+}
+* p, span, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+.bg-first{
+  background-color: $color-first;
+}
+.button-hover{
+  background: transparent;
+}
+.vazir-digits{
+  font-family: vazirDigits;
+}
+.iran-medium{
+  font-family: iransansMedium;
+}

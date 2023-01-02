@@ -1,0 +1,110 @@
+.header-wrapper{
+  z-index: 9999999999;
+  box-shadow: 0px 14px 15px -17px rgba(0,0,0,0.75);
+  .inner-content{
+    margin: 0 auto;
+    .logo-wrapper{
+      width: 16%;
+    }
+    .header-menu{
+      width: 30%;
+      ul{
+        li{
+          .inner-content{
+            font-size: 13.5px;
+            .fa-chevron-down,.fa-chevron-up{
+              font-size: 10px;
+            }
+          }
+          .drop-down{
+            top: 100%;
+            box-shadow: 0px 7px 19px -12px rgba(0,0,0,0.75);
+            border-top: solid 6px $color-first;
+            ul{
+              margin: 0 auto;
+              height: 250px;
+              li{
+                font-size: 13.5px;
+                color: $color-second;
+                &:first-child{
+                  margin-top: 0!important;
+                }
+              }
+            }
+            .menu-items{
+              li{
+                &:hover{
+                  transform: translateX(-10px);
+                  color: $color-first;
+                  &::before{
+                    content: "";
+                    width: 8px;
+                    height: 8px;
+                    background-color: $color-first;
+                    border-radius: 50%;
+                  }
+                  a{
+                    padding-right: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .active{
+          color: $color-first;
+        }
+      }
+    }
+    .search-box{
+      width: 30%;
+      form{
+        background-color: $color-third;
+        border-radius: 25px;
+        input{
+          font-size: 13.5px;
+          background-color: transparent;
+        }
+      }
+    }
+    .account-info{
+      width: 16%;
+      .cart{
+        img{
+          width: 35px;
+          height: 35px;
+          border: solid 1px $color-first;
+          border-radius: 50%;
+          padding: 5px;
+        }
+      }
+      .account{
+        background-color: $color-first;
+        border-color: $color-first;
+        &:hover{
+          background-color: transparent;
+          color: $color-first;
+        }
+        .fa-chevron-down,.fa-user{
+          font-size: 10px;
+        }
+        .profile-drop-down{
+          border-top: solid 3px $color-first;
+          box-shadow: 0px 7px 19px -12px rgba(0,0,0,0.75);
+          ul{
+            li{
+              a{
+                &:hover{
+                  color: $color-first;
+                }
+              }
+            }
+          }
+        }
+      }
+      a,p{
+        font-size: 13.5px;
+      }
+    }
+  }
+}

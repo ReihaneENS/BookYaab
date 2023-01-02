@@ -1,0 +1,26 @@
+.banner-main-wrapper{
+  .bg-wrapper{
+    background: url("~/assets/images/home/library.jpg") rgba(0,0,0,0.60);
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .inner-content{
+      h1{
+        text-shadow: 2px 0 $color-first, -2px 0 $color-first, 0 2px $color-first, 0 -2px $color-first,
+        1px 1px $color-first, -1px -1px $color-first, 1px -1px $color-first, -1px 1px $color-first;
+      }
+      p{
+        span{
+          color: $color-first;
+        }
+        .banner-register{
+          border: solid 2px $color-first;
+          &:hover{
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+}
