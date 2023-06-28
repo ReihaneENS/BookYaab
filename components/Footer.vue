@@ -113,7 +113,7 @@ export default {
         },
         {
           id: 4,
-          title: 'چرا کتاب لند ؟',
+          title: 'چرا بوک یاب ؟',
           url: '/',
         },
         {
