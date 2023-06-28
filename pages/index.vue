@@ -8,6 +8,7 @@
     <LatestProducts/>
     <AdBanner/>
     <BestSellers/>
+    <Footer/>
   </div>
 </template>
 

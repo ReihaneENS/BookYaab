@@ -1,0 +1,21 @@
+.footer-wrapper{
+  background: url('~/assets/images/home/footerbg.jpg') rgba(0,0,0,0.80);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-attachment: fixed;
+  border-top: solid 4px $color-first;
+  height: 400px;
+  .inner{
+    .partition{
+      li{
+        a{
+          transition: 0.3s;
+          &:hover{
+            color: $color-first;
+          }
+        }
+      }
+    }
+  }
+}
